@@ -40,7 +40,7 @@ from sys_utils import multi_process
 sys.path.append('.')
 from metrics import print_metrics_from_dirs
 
-#U-Netでのセグメンテーション
+#U-Netでセグメンテーション
 def unet_segment(cnn, image):
     photo_shape = image.shape
     tiles, coords = im_utils.get_tiles(image,
