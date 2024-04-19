@@ -24,7 +24,7 @@ import sys
 import warnings
 import csv
 
-import numpy as np
+import numpy as np 
 import torch
 from torch.nn.functional import softmax
 from skimage.io import (imread, imsave)
